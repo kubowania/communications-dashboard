@@ -1,4 +1,4 @@
-# communications-dashboard![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+# communications-dashboard![](https://user-images.githubusercontent.com/44474792/165912116-36ba815b-7973-4837-852d-d55c5fbfc4da.png)
 
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
 
