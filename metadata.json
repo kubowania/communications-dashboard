@@ -1,0 +1,98 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "publishedDefaultPageName": "Customer Data",
+  "unpublishedDefaultPageName": "Customer Data",
+  "invisibleActionFields": {
+    "Customer Data_deleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Customer Data_findQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Customer Data_insertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Customer Data_updateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_DiscordAPI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_SendEmail": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_Utils.dndList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_Utils.getEmails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_Utils.sendMessages": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_addNewList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_getAllCustomersList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_getAllMailingListCustomers": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_getCustomerList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_getMarketingList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedTheme": {
+    "name": "Classic",
+    "displayName": "Classic",
+    "isSystemTheme": true,
+    "deleted": false,
+    "policies": [
+      {
+        "permission": "read:themes",
+        "users": [
+          "anonymousUser"
+        ],
+        "groups": []
+      }
+    ]
+  },
+  "publishedLayoutmongoEscapedWidgets": {
+    "Customer Data": [
+      "data_table"
+    ],
+    "Send Messages": [
+      "Table2",
+      "Table1"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Customer Data": [
+      "data_table"
+    ],
+    "Send Messages": [
+      "Table2",
+      "Table1"
+    ]
+  },
+  "fileFormatVersion": 2
+}

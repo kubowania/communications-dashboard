@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Send Messages",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tsendMessages: () => {\n\t\tif (DiscordSwitch.isSwitchedOn) {\n\t\t\tDiscordAPI.run()\n\t\t\tconst successMessage1 = \"Discord Message sent to \".concat(List1.selectedItem.MailingList).concat(\"server\")\n\t\t\tshowAlert(successMessage1, \"success\")\n\t\t}\n\t\tif (EmailSwitch.isSwitchedOn) {\n\t\t\tSendEmail.run()\n\t\t\tconst successMessage2 = \"Email sent to users on \".concat(List1.selectedItem.MailingList).concat(\"list\")\n\t\t\tshowAlert(successMessage2, \"success\")\n\t\t}\n\t\tresetWidget(\"Message_Modal\")\n\t\tcloseModal(\"Message_Modal\")\n\t},\n\tgetEmails: () => {\n\t\tlet nameArray = Table2.selectedRows.map(el => el.CustomersEmailID)\n\t\treturn nameArray.toString()\n\t},\n\tdndList: () => {\n\t\tlet dndCount = 0\n\t\tlet reachable = 0\n\t\tgetAllCustomersList.data.forEach(u => u.UsersDoNotDisturb == 0 ? dndCount+=1: reachable+=1)\n\t\tconst ret = [{\"x\": \"Reachable\", \"y\": dndCount}, { \"x\": \"Do not disturb\", \"y\":reachable}]\n\t\treturn ret\n\t}\n}",
+    "variables": []
+  },
+  "id": "Send Messages_Utils",
+  "deleted": false,
+  "gitSyncId": "62626be400cba01cd02f4a59_6267cdb900cba01cd0304d7c"
+}
